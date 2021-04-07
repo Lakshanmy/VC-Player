@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hello {message.from_user.first_name}!
-I am <i>CyberHacker'S VoiceChat Song Player BOT</i>, an open-source bot that lets you play music in your Telegram groups.
+I am CyberHacker VoiceChat Song Player BOT, an open-source bot that lets you play music in your Telegram groups.
 Maintained by @sangramghangale ❤
 For source code Join our support group @Cyber0Hacker.
 Use the buttons below to know more about me.
